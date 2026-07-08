@@ -4,7 +4,15 @@ version = "0.1.0"
 edition = "2024"
 
 exclude = [
+  "rs-dgram2lines",
 ]
+
+description = "Prints the lines got via unix datagram socket."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-dgram2lines"
+homepage = "https://github.com/takanoriyanagitani/rs-dgram2lines"
+documentation = "https://docs.rs/rs-dgram2lines/latest"
+keywords = ["unix", "datagram", "socket", "lines"]
 
 [lints.rust]
 unsafe_code = "forbid"
